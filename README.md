@@ -18,18 +18,22 @@
 
 ### The project
 
-project description here
+The challenge is to build out this countdown timer and get it looking as close to the design as possible.
+
+The design: 
+
+![](./assets/design%20handout/desktop-preview.jpg)
 
 ### Screenshot
 
-![](./screenshot.jpg)
+My solution:
 
-Add a screenshot of the project.
+![](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://github.com/mikeFrees/launch-countdown-timer-main)
+- [Live Site URL](https://mikes-launch-countdown.netlify.app/)
 
 ## My process
 
