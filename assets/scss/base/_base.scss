@@ -101,3 +101,12 @@ summary,
 [type=checkbox] {
     cursor: pointer;
 }
+
+/*
+* Make body cover whole page
+*/
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
