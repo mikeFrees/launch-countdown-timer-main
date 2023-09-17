@@ -1,3 +1,18 @@
 // -----------------------------------------------------------------------------
 // This file contains all application-wide Sass variables.
 // -----------------------------------------------------------------------------
+
+//fonts
+$font-stack: 'Red Hat Text Variable', sans-serif, Arial, Helvetica, sans-serif;
+
+//colors
+$color-primary: #8486a9;
+$color-secondary: #fb6087;
+
+$color-background-primary: #343650;
+$color-background-secondary: #1e1f29;
+$color-background-tertiary: #191a24;
+
+//media queries
+$mobile: 375px;
+$desktop: 1440px;
