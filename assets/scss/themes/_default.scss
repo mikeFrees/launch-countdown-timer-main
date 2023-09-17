@@ -2,3 +2,8 @@
 // When having several themes, this file contains everything related to the
 // default one.
 // -----------------------------------------------------------------------------
+body {
+    background: 
+        center url(../../images/bg-stars.svg), 
+        linear-gradient(0deg, $color-background-primary 40%, $color-background-secondary 80%, $color-background-tertiary 100%);
+}
