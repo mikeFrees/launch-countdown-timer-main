@@ -489,7 +489,7 @@ footer p {
   height: 14rem;
   background: linear-gradient(to bottom, #2a2a41 0%, #2a2a41 50%, #34364f 50%, #34364f 100%);
   color: rgba(252, 93, 133, 0.7);
-  font: 700 5.6rem/8rem "Red Hat Text Variable", sans-serif, Arial, Helvetica, sans-serif;
+  font: 700 7.5rem/9rem "Red Hat Text Variable", sans-serif, Arial, Helvetica, sans-serif;
   filter: drop-shadow(0 1rem 0.2rem #1a1a24);
 }
 
