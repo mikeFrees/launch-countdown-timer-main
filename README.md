@@ -49,7 +49,7 @@ My solution:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings
+how to use bezier curbes and the clip path. creation of animations. make partial borders on a div. found out that you can not combine border image with border radius.
 
 ### Continued development
 
@@ -58,7 +58,10 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful resources
 
 - [Boilerplate css file](https://blog.logrocket.com/what-should-modern-css-boilerplate-look-like) - This helped me build the starting points of my _base.scss file.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Cubic bezier generator](https://cubic-bezier.com/#.17,.67,.83,.67) - A great website to make custom bezier curbes and preview the animation speed it creates.
+- [Clippy](https://bennettfeely.com/clippy/) - A website to create complex custom clip paths.
+- [Codepen](https://codepen.io/) - A online development environment i used to work on my project when i was away from home. And which i used as sandbox to create my animation.
+
 
 ## Author
 
