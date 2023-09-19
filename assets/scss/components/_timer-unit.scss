@@ -15,18 +15,32 @@
     justify-content: space-between;
     overflow: hidden;
     border-radius: 1rem;
+    border: 1px solid $color-background-secondary;
     width: 15rem;
     height: 14rem;
     background: linear-gradient(
       to bottom,
       $color-card-top 0%,
-      $color-card-top 50%,
-      $color-card-bottom 50%,
+      $color-card-top 49%,
+      black 50%,
+      $color-card-bottom 51%,
       $color-card-bottom 100%
     );
     color: rgba(252, 93, 133, 0.7);
     font: 700 7.5rem/9rem $font-stack;
     filter: drop-shadow(0 1rem 0.2rem #1a1a24);
+    clip-path: polygon(
+      -10% -10%,
+      0 0,
+      0 49%,
+      110% 49%,
+      110% 51%,
+      0 51%,
+      0 110%,
+      110% 110%,
+      110% 110%,
+      110% 0%
+    );
   }
   
   .timer-unit:before,
