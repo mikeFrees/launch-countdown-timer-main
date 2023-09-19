@@ -435,6 +435,10 @@ main {
   justify-content: space-around;
 }
 
+div {
+  height: 14rem;
+}
+
 footer {
   display: flex;
   align-items: center;
@@ -485,12 +489,14 @@ footer p {
   justify-content: space-between;
   overflow: hidden;
   border-radius: 1rem;
+  border: 1px solid #211d2b;
   width: 15rem;
   height: 14rem;
-  background: linear-gradient(to bottom, #2a2a41 0%, #2a2a41 50%, #34364f 50%, #34364f 100%);
+  background: linear-gradient(to bottom, #2a2a41 0%, #2a2a41 49%, black 50%, #34364f 51%, #34364f 100%);
   color: rgba(252, 93, 133, 0.7);
   font: 700 7.5rem/9rem "Red Hat Text Variable", sans-serif, Arial, Helvetica, sans-serif;
   filter: drop-shadow(0 1rem 0.2rem #1a1a24);
+  clip-path: polygon(-10% -10%, 0 0, 0 49%, 110% 49%, 110% 51%, 0 51%, 0 110%, 110% 110%, 110% 110%, 110% 0%);
 }
 
 .timer-unit:before,
@@ -520,6 +526,39 @@ footer p {
   margin: 0;
 }
 
+.timer-unit {
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+
+.turn {
+  position: relative;
+  bottom: 140px;
+  transform-style: preserve-3d;
+  z-index: 1;
+  transform: perspective(300px);
+  filter: none;
+  animation: 1s cubic-bezier(0.57, 0.31, 0.84, 0.61) infinite paused flip;
+}
+
+@keyframes flip {
+  from {
+    transform: translate3d(0, 0, 0px) rotateX(0deg) skew(0deg);
+    clip-path: polygon(0 51%, 0 49%, 0 0, 100% 0, 100% 49%, 0 49%, 0 51%, 100% 51%, 100% 51%, 100% 51%);
+  }
+  49% {
+    transform: translate3d(0, 0, 0px) rotateX(90deg) skew(5deg);
+    clip-path: polygon(0 51%, 0 49%, 0 0, 100% 0, 100% 49%, 0 49%, 0 51%, 100% 51%, 100% 51%, 100% 51%);
+  }
+  50% {
+    transform: translate3d(0, 0, 0px) rotateX(90deg) skew(-5deg);
+    clip-path: polygon(0 49%, 0 49%, 0 49%, 100% 49%, 100% 51%, 0 51%, 0 100%, 100% 100%, 100% 100%, 100% 49%);
+  }
+  to {
+    transform: translate3d(0, 0, 0px) rotateX(0deg) skew(0deg);
+    clip-path: polygon(0 49%, 0 49%, 0 49%, 100% 49%, 100% 51%, 0 51%, 0 100%, 100% 100%, 100% 100%, 100% 49%);
+  }
+}
 body {
   background: center url(../../images/bg-stars.svg), linear-gradient(0deg, #241e2c 40%, #211d2b 80%, #1e1e28 100%);
 }
