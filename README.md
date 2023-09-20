@@ -51,6 +51,8 @@ My solution:
 
 how to use bezier curbes and the clip path. creation of animations. make partial borders on a div. found out that you can not combine border image with border radius.
 
+how to use setInterval and setTimeout in js and how to format a string with String().padStart();
+
 ### Continued development
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
@@ -67,7 +69,3 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - LinkedIn - [Frees Mike](https://www.linkedin.com/in/mike-frees/)
 - Frontend Mentor Profile - [Mike Frees](https://www.frontendmentor.io/profile/mikeFrees)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
