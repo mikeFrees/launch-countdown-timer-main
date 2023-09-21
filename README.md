@@ -42,20 +42,24 @@ My solution:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Mobile-first workflow
+- Grid
+- javascript
 - scss with 7 - 1 file structure
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
+- CSS animations
 
 ### What I learned
 
-how to use bezier curbes and the clip path. creation of animations. make partial borders on a div. found out that you can not combine border image with border radius.
-
-how to use setInterval and setTimeout in js and how to format a string with String().padStart();
+- How to use a bézier curve in animation timing
+- The clip path property 
+- The creation of animations in CSS
+- How to make partial borders on a div
+- I found out that you can not combine border image with border radius
+- How to use setInterval and setTimeout in Javascript
+- How to format a string with String().padStart();
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I want to continue to develop my CSS and try to discover what i can do with the animation properties. During this project i discovered that i still have a lot to learn about Javascript and i will try to find more projects with where i need to use this.
 
 ### Useful resources
 
