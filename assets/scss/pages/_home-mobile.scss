@@ -1,0 +1,10 @@
+@media not (hover: hover) {
+    body {
+        height: 100vh;
+        width: $mobile;
+    }
+
+    .timer {
+        transform: scale(0.55);
+    }
+}

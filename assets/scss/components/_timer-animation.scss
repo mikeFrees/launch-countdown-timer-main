@@ -5,7 +5,7 @@
 
   .turn {
     position: relative;
-    bottom: 280px;
+    bottom: 28rem;
     transform-style: preserve-3d;
     z-index: 2;
     transform: perspective(300px);
@@ -13,7 +13,7 @@
   }
 
   .bottom {
-    bottom: 140px;
+    bottom: 14rem;
     z-index: 1;
     clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0% 100%);
   }

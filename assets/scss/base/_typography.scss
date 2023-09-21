@@ -5,4 +5,9 @@
 body {
     font: 700 1.4rem/1.7rem $font-stack;
     color: $color-primary;
+    text-transform: uppercase;
+}
+
+header h1 {
+    color: #FFF;
 }
