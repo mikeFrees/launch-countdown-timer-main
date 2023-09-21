@@ -1,4 +1,4 @@
-# The project title
+# Mike's animated Launch countdown timer 
 
 ## Table of contents
 
